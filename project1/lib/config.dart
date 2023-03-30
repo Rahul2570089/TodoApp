@@ -1,4 +1,4 @@
-const url = 'http://192.168.0.199:3000/';
+const url = 'http://35.160.120.126:3000/';
 const registration = "${url}register";
 const login = '${url}login';
 const addtodo = '${url}addTodo';
