@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/todoflutter').then(() => {
+mongoose.connect('mongodb+srv://rahul:R@sdassas123@cluster0.vafhpkv.mongodb.net/?retryWrites=true&w=majority').then(() => {
     console.log('Connected to MongoDB');
 }).catch((err) => {
     console.log('Error connecting to MongoDB', err);
